@@ -1,0 +1,14 @@
+%%workspace initialization
+clc; clear; close all;
+%% Generate the basic signals of commong length 16
+N=16
+n=0:N-1;
+b=ones(1,N);
+r=n;
+P=8;
+n1=0:P/2-1;
+n2=P/2:P-1;
+P1=P*ones(1,length(n2));
+A=1;
+
+tri_block=[2*A*n1/P2*A
